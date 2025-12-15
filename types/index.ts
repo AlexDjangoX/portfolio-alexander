@@ -338,7 +338,6 @@ export type SectionHeroType = {
   heading: string;
   imageUrl: string;
   imageAlt: string;
-  demoSite: string;
   sourceCode: string;
   myRole: string;
   startDate: string;
@@ -390,7 +389,6 @@ export type HighlightedHeaderProps = {
 };
 
 export type SiteGitLinksType = {
-  demoSite: string;
   sourceCode: string;
 };
 

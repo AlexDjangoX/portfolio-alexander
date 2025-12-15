@@ -7,7 +7,6 @@ const SectionHero = ({
   heading,
   imageUrl,
   imageAlt,
-  demoSite,
   sourceCode,
   myRole,
   startDate,
@@ -16,7 +15,7 @@ const SectionHero = ({
   <div className="overflow:hidden bg-white-800 dark:bg-black-300">
     <Header headingUnderline={headingUnderline} heading={heading} />
     <ApplicationHeroImage imageUrl={imageUrl} imageAlt={imageAlt} />
-    <SiteGitLinks demoSite={demoSite} sourceCode={sourceCode} />
+    <SiteGitLinks sourceCode={sourceCode} />
     <Timeline myRole={myRole} startDate={startDate} endDate={endDate} />
   </div>
 );

@@ -24,7 +24,6 @@ const ProjectDetails = async ({ projectId }: { projectId: string }) => {
         heading={project?.heading}
         imageUrl={project?.imageUrl}
         imageAlt={project?.imageAlt}
-        demoSite={project?.demoSite}
         sourceCode={project?.sourceCode}
         myRole={project?.myRole}
         startDate={project?.startDate}
