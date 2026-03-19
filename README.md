@@ -1,34 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+# Portfolio — Alexander
 
-First, run the development server:
+**My personal portfolio** — dark-first UI, case studies, contact, and CMS-backed content. This repository exists so anyone browsing the code can see what the project is and which technologies it uses; it is **not** a template or starter for others to copy and run.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+[![Next.js](https://img.shields.io/badge/Next.js-13-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Sanity](https://img.shields.io/badge/Sanity-CMS-F03E2F?style=flat-square&logo=sanity&logoColor=white)](https://www.sanity.io/)
+
+[Live site](https://portfolio-alexander.vercel.app/)
+
+</div>
+
+---
+
+## Preview
+
+<p align="center">
+  <a href="https://portfolio-alexander.vercel.app/">
+    <img src="./public/image.png" alt="Portfolio homepage — hero with navigation, headline, CTA, and 3D illustration" width="920" />
+  </a>
+</p>
+
+<p align="center">
+  <em>Home: hero, skills strip, services, experience, projects, testimonials, and CTA — with light/dark theme.</em>
+</p>
+
+---
+
+## About
+
+I am **Alexander**, a **web developer based in Poland**. The site showcases my work as case studies, along with skills, experience, and testimonials. Content is edited in **Sanity**; the public site is **Next.js** (App Router), **TypeScript**, and **Tailwind**.
+
+---
+
+## Features
+
+| Area | Details |
+|------|---------|
+| **Home** | Hero with animated copy, email copy-to-clipboard, skills, services, timeline, featured projects, testimonials |
+| **Case studies** | Listing and individual project pages (`/case-studies`, `/case-studies/[id]`) |
+| **Contact** | Form powered by **EmailJS** |
+| **Resume** | Download link from the main navigation |
+| **Theming** | **next-themes** — light/dark with system-friendly defaults |
+| **CMS** | **Sanity Studio** at `/studio` for structured content |
+| **Motion** | **Framer Motion** for scroll and entrance animations |
+
+---
+
+## Tech stack
+
+- **Framework:** [Next.js](https://nextjs.org/) 13 (App Router)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **UI:** [Tailwind CSS](https://tailwindcss.com/), [NextUI](https://nextui.org/)
+- **CMS:** [Sanity](https://www.sanity.io/) + [next-sanity](https://github.com/sanity-io/next-sanity)
+- **Forms:** [React Hook Form](https://react-hook-form.com/) + [Zod](https://zod.dev/)
+- **Email:** [@emailjs/browser](https://www.emailjs.com/)
+- **State:** [Zustand](https://github.com/pmndrs/zustand)
+- **Animation:** [Framer Motion](https://www.framer.com/motion/)
+
+---
+
+## Repository layout
+
+```
+app/
+  (root)/          # Marketing site — home, case studies, contact
+  (studio)/        # Sanity Studio
+components/        # Page sections and shared UI
+sanity/            # Queries and Sanity client
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<div align="center">
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Built with Next.js · TypeScript · Tailwind · Sanity
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+</div>
